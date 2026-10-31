@@ -1,0 +1,53 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.bak
+*.wdb
+*.wcfg
+*.hw
+*.hw/*
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.runs/
+*.gen/
+*.srcs/*_1/ip/*/
+.ip_user_files/
+.Xil/
+*.Xil/
+
+# Vivado project internals – nur die Quelldateien versionieren
+FPGA_Project_Classic/project/redpitaya.cache/
+FPGA_Project_Classic/project/redpitaya.hw/
+FPGA_Project_Classic/project/redpitaya.sim/
+FPGA_Project_Classic/project/redpitaya.ip_user_files/
+FPGA_Project_Classic/project/redpitaya.runs/
+FPGA_Project_Classic/project/.Xil/
+FPGA_Project_Classic/project/*.xpr
+
+# Generated IP repositories
+FPGA_Project_Classic/ip_repo/*/*.cache/
+FPGA_Project_Classic/ip_repo/*/*.hw/
+FPGA_Project_Classic/ip_repo/*/*.sim/
+FPGA_Project_Classic/ip_repo/*/*.ip_user_files/
+FPGA_Project_Classic/ip_repo/*/*.runs/
+FPGA_Project_Classic/ip_repo/*/*.gen/
+FPGA_Project_Classic/ip_repo/*/edit_*/
+
+# Vivado journal / autosave
+*.str
+*.autosave*
+
+# Build outputs
+*.bit
+*.bin
+*.ltx
+*.mmi
+*.xsa
+*.hdf
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER octopus_debug_io
+	OPTION supported_peripherals = (octopus_debug_io);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = octopus_debug_io;
+END DRIVER
